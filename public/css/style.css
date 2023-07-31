@@ -10,6 +10,7 @@
 
 :root {
   --primary-color: #f9b64d;
+  --gradient-color: linear-gradient(to right, #f9b64d, #f7971e);
 }
 
 body {
@@ -51,9 +52,9 @@ body {
 
 /* Showcase */
 .showcase {
-  height: 450px;
+  height: 110%;
   width: 100%;
-  background: var(--primary-color);
+  background: var(--gradient-color);
 }
 
 .showcase h1 {
@@ -92,6 +93,7 @@ form button {
   color: #fff;
   cursor: pointer;
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 form button:hover {
